@@ -96,7 +96,7 @@ Shamir Secret Manager is a command‑line application built with Python 3.13+ th
 Ensure you have Python 3.13 or later installed. Then install the required dependencies:
 
 ```
-pip install mnemonic pycryptodome inquirer
+pip3 install mnemonic pycryptodome inquirer
 ```
 
 Clone the repository or download the project source, and launch the tool from your terminal:
