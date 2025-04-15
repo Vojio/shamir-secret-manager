@@ -82,6 +82,8 @@ Shamir Secret Manager is a command‑line application built with Python 3.13+ th
      Use checkboxes to select the share files required for recovery.
    - **Multi‑Line Warning & Recovery:**
      The tool prints a full warning (ensuring it is not truncated) before asking for confirmation to display the sensitive recovered seed phrase. The recovered secret is shown as both HEX and the original seed phrase (if confirmed).
+   - **Note:** The recovery process can also work with share files that contain only the raw HEX data (even if they do not follow the JSON format).
+
 
 3. **Sanity Check:**
    - The sanity check option tests all valid combinations of the required shares to verify that each combination recovers the identical secret, ensuring backup integrity.
